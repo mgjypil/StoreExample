@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>    
+
+<!-- we will create separate divs for each item listing and another for their respective "pages" -->
+<!-- the pages will be hidden/ shown depending on which is selected -->
+
+<body>
+    <!-- this is the selection of items -->
+    <div id="products-container">
+        <div class="product" data-name="product1">
+            <img src="assets/item1.png" alt="" class="product-img">
+            <h3>Item 1</h3>
+            <p class="price">$1.99</p>
+        </div>
+        
+        <!-- this is the display of each item -->
+        <div class="preview">
+            <div class="preview-card" data-target="product1">
+                <img src="assets/item1.png" alt="" class="product-img">
+                <h3>Item 1</h3>
+                <p class="price">$1.99</p>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <i class="preview-close">x</i>
+            </div>
+        </div>
+        
+
+
+        <div class="product" data-name="product2">
+            <img src="assets/item2.png" alt="" class="product-img">
+            <h3>Item 2</h3>
+            <p class="price">$2.99</p>
+        </div>
+        
+        <!-- this is the display of each item -->
+        <div class="preview">
+            <div class="preview-card" data-target="product2">
+                <img src="assets/item2.png" alt="" class="product-img">
+                <h3>Item 2</h3>
+                <p class="price">$2.99</p>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <i class="preview-close">x</i>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
